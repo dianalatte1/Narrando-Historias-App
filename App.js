@@ -20,6 +20,15 @@ export default function App() {
             }
             return <Ionicons name={iconName} size={size} color={color} />;
           },
+
+          tabBarActiveTintColor: "tomato",
+          tabBarInactiveTintColor: "gray",
+          tabBarStyle: [
+            {
+              display: "flex",
+            },
+            null,
+          ],
         })}
       >
         <Tab.Screen name="Feed" component={Feed} />
